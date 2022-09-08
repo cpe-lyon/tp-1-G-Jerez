@@ -13,7 +13,7 @@
 3. Pour ce faire il faut exécuter `cd ~`.
 4. Pour retourner dans le dossier précédent sans utiliser de chemin relatif on peut utiliser `cd -`.
 5. La permission d'acccès au fichier `/root/` nous est refusée.
-6. La commande ne peut s'executer car elle est builtin shell et n'existe pas nativement dis le retour d'erreur. Cela se produit car sudo ne fonctionne que sur des executables et sudo n'est pas un executable.
+6. La commande ne peut s'executer car elle est builtin shell et n'existe pas nativement dis le retour d'erreur. Cela se produit car sudo ne fonctionne que sur des executables et cd n'est pas un executable mais est un builtin de bash.
 7. On peut créer les dossier à l'aide de la commande `mkdir [dirname]` `touch [filename]`.
 8. A l'aide de `rm` on peut supprimer `Fichier1` mais pas `Dossier1` car il s'agit d'un dossier et non d'un fichier.
 9. Il faut utiliser `rmdir` pour un dossier.
