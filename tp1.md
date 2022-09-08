@@ -18,3 +18,4 @@
 8. A l'aide de `rm` on peut supprimer `Fichier1` mais pas `Dossier1` car il s'agit d'un dossier et non d'un fichier.
 9. Il faut utiliser `rmdir` pour un dossier.
 10. Quand on applique cette commande au `Dossier2`, elle ne s'execute pas car le `Dossier2` n'est pas vide.
+11. On peut supprimer le `Dossier2` et tout son contenu à l'aide de `rm -rf Dossier2`.
