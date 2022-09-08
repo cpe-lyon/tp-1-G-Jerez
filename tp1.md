@@ -10,6 +10,11 @@
   <ins>Navigaton dans l'arborescence des fichiers</ins>  
 1. Pour aller dans le dossier */var/log/* on peut utiliser *'cd /var/log/'*.  
 2. Pour remonter on peut utiliser *'cd ..'*.
-3. Pour retourner dans le dossier précédent sans utiliser de chemin relatif on peut utiliser *'cd -'*.
-4. La permission d'acccès au fichier *'/root/'* nous est refusée.
-5. La commande ne peut s'executer car elle est builtin shell et n'existe pas nativement.
+3. Pour ce faire il faut exécuter *'cd ~'*.
+4. Pour retourner dans le dossier précédent sans utiliser de chemin relatif on peut utiliser *'cd -'*.
+5. La permission d'acccès au fichier *'/root/'* nous est refusée.
+6. La commande ne peut s'executer car elle est builtin shell et n'existe pas nativement dis le retour d'erreur. Cela se produit car sudo ne fonctionne que sur des executables et sudo n'est pas un executable.
+7. On peut créer les dossier à l'aide de la commande *'mkdir [<ins>dirname</ins>]'* *'touch [<ins>filename</ins>]'*.
+8. A l'aide de *'rm'* on peut supprimer *Fichier1* mais pas *Dossier1* car il s'agit d'un dossier et non d'un fichier.
+9. Il faut utiliser *'rmdir'* pour un dossier.
+10. Quand on applique cette commande au *Dossier2*, elle ne s'execute pas car le *Dossier2* n'est pas vide.
