@@ -8,4 +8,6 @@
 4. La section parle de l'intro de la section (nom, description, notes, colophon).  
   
   <ins>Navigaton dans l'arborescence des fichiers</ins>  
-1.
+1. Pour aller dans le dossier /var/log/ on peut utiliser 'cd /var/log/'.  
+2. Pour remonter on peut utiliser 'cd ..'.
+3. Pour retourner dans le dossier précédent sans utiliser de chemin relatif on peut utiliser 'cd -'.
