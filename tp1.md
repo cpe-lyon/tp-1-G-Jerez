@@ -19,3 +19,7 @@
 9. Il faut utiliser `rmdir` pour un dossier.
 10. Quand on applique cette commande au `Dossier2`, elle ne s'execute pas car le `Dossier2` n'est pas vide.
 11. On peut supprimer le `Dossier2` et tout son contenu à l'aide de `rm -rf Dossier2`.
+  
+  <ins>Commandes importantes</ins>
+  1. La commande permettant d'afficher l'heure est `date` et pour plus de précision et avoir uniquement l'heure minute seconde il faut utiliser `date | awk '{print $4}'`. La commande `time` execute des programmes et affiche l'utilisation des ressources systèmes.
+  2. Les fichiers commençant par un point (fichier/dossier caché) ne sont pas listé par `ls` mais le sont par `la`.
