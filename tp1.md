@@ -35,4 +35,8 @@
   12. Lors de l'execution de `lien-phy` on observe qu'il montre le contenu modifié de `original`. Lorsque l'on supprime `original`, `lien_phy` possède toujours le même contenu.
   13. Après la création du lien symbolique, toute modification d'un des deux fichiers exerce la même modification sur l'autre. Après la suppression de `lien_phy`, le fichier `lien_sym` ne peut plus être exécuté/lu. *"No such file or directory"*.
   14. Les raccourcis permettant d'interrompre et de reprendre le défilement sont respectivement `ctrl + s` et `ctrl+q`.
-  15. 
+  15. On éxecute dans l'ordre `head -5 /var/log/syslog`, puis `tail -15 /var/log/syslog` et enfin `sed -n '10,20p' /var/log/syslog`.
+  16. La commande `dmesg | less` affiche la mémoire tampon du noyau en permettant de revenir en arrière et de la consulter sans possibilité d'écriture.
+  17. Ce fichier contient l'ensemble des utilisateurs et les mots de passes cryptés leur étant associé ainsi que les droits de ces utilisateurs. La commande de ce fichier est `man passwd`.
+  18. La commande pour afficher par ordre alphabétique inverse la 1ère colonne est `ls -1 | sort -r`.
+  19. La commande permettant d'afficher tous les users est `awk -F: '{print $ 1}' / etc / passwd cut -d: -f1 / etc / passwd`.
