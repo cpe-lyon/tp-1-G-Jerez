@@ -27,4 +27,9 @@
   4. Il n'existe pas d'entrée dans le manuel pour `ll`. On apprend avec `alias` que `ll` est l'alias de `ls -alF`.
   5. La commande permettant d'afficher les fichiers contenus dans le dossier `/bin` est `ls /bin`.
   6. La commande `ls` liste le contenu du répertoire.
-  7. 
+  7. La commande donnant le chemin complet du dossier courant est `pwd`.
+  8. La commande `echo 'bip' > plop` exécutée deux fois ne fais rien.
+  9. La commande `echo 'bip' >> plop` exécutée deux fois ne fais rien non plus.
+  10. La commande `sleep 10 | echo 'toto'` attend 10 milliseconds avant d'echo `toto`.
+  11. La commande `file` détermine le type d'un fichier.
+  12. 
