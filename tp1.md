@@ -25,3 +25,5 @@
   2. Les fichiers commençant par un point (fichier/dossier caché) ne sont pas listé par `ls` mais le sont par `la`.
   3. Le programme `ls`se situe dans `/usr/bin/ls/`.
   4. Il n'existe pas d'entrée dans le manuel pour `ll`. On apprend avec `alias` que `ll` est l'alias de `ls -alF`.
+  5. La commande permettant d'afficher les fichiers contenus dans le dossier `/bin` est `ls /bin`.
+  6. 
