@@ -39,4 +39,8 @@
   16. La commande `dmesg | less` affiche la mémoire tampon du noyau en permettant de revenir en arrière et de la consulter sans possibilité d'écriture.
   17. Ce fichier contient l'ensemble des utilisateurs et les mots de passes cryptés leur étant associé ainsi que les droits de ces utilisateurs. La commande de ce fichier est `man passwd`.
   18. La commande pour afficher par ordre alphabétique inverse la 1ère colonne est `ls -1 | sort -r`.
-  19. La commande permettant d'afficher tous les users est `awk -F: '{print $ 1}' / etc / passwd cut -d: -f1 / etc / passwd`.
+  19. La commande permettant d'afficher tous les users est `awk -F: '{print $1}' /etc/passwd cut -d: -f1 /etc/passwd`.
+  20. La commande permettant de trouver les pages contenant `conversion` est `man --regex -wK 'conversion'`.
+  21. La commande utiliser pour trouver tous les fichiers nommés `passwd` est `find . -type f -name "passwd"`.
+  22. Pour que le résultat soit dirigé dans `list_passwd_files.txt` on peut faire `find . -type f -name "passwd" > ~/list_passwd_files.txt 2>/dev/null`.
+  23. 
