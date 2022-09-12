@@ -43,4 +43,13 @@
   20. La commande permettant de trouver les pages contenant `conversion` est `man --regex -wK 'conversion'`.
   21. La commande utiliser pour trouver tous les fichiers nommés `passwd` est `find . -type f -name "passwd"`.
   22. Pour que le résultat soit dirigé dans `list_passwd_files.txt` on peut faire `find . -type f -name "passwd" > ~/list_passwd_files.txt 2>/dev/null`.
-  23. 
+  23. Je n'ai pas réussi, je passe à l'exercice 3.
+
+**Exercice 3:**
+2. On peut remplacer toutes les occurences du mot kernel par noyau avec `alt+r`.
+3. On utilise `alt+a` pour utiliser les marqueur, avec cela on sélectionne les 10 premières lignes puis on peut les copiers et coller à la fin.
+4. On peut annuler cette commande avec `alt+u`.
+
+**Exercice 4:**
+1. On copie à l'aide de `.bashrc > .bashrc_bak`.
+4. On remplace la ligne `PS1` par `PS1'${debian_chroot:+($debian_chroot)}\[\e[35m\]\@\[\e[00m\]-\[\e[92m\]\u@\h\[\033m\]:\[\e[36m\]\w\[\033[00m\]\$'`.
