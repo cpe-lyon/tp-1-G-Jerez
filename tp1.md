@@ -32,4 +32,7 @@
   9. La commande `echo 'bip' >> plop` exécutée deux fois ajoute des `bip` dans le fichier plop.
   10. La commande `sleep 10 | echo 'toto'` attend 10 milliseconds avant d'echo `toto`.
   11. La commande `file` détermine le type d'un fichier.
-  12. 
+  12. Lors de l'execution de `lien-phy` on observe qu'il montre le contenu modifié de `original`. Lorsque l'on supprime `original`, `lien_phy` possède toujours le même contenu.
+  13. Après la création du lien symbolique, toute modification d'un des deux fichiers exerce la même modification sur l'autre. Après la suppression de `lien_phy`, le fichier `lien_sym` ne peut plus être exécuté/lu. *"No such file or directory"*.
+  14. Les raccourcis permettant d'interrompre et de reprendre le défilement sont respectivement `ctrl + s` et `ctrl+q`.
+  15. 
